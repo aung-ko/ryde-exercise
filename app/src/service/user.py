@@ -1,6 +1,6 @@
 from bson.objectid import ObjectId
 from app.database import UserCollection
-from app.serializers.user import user_entity
+from app.src.serializers.user import user_entity
 
 
 # Retrieve all users present in the database
